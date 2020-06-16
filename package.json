@@ -1,0 +1,31 @@
+{
+  "name": "ella-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": {
+    "ella": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sukiey/ella-cli.git"
+  },
+  "keywords": [
+    "nodejs",
+    "cli"
+  ],
+  "author": "suqin.zhang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sukiey/ella-cli/issues"
+  },
+  "homepage": "https://github.com/Sukiey/ella-cli#readme",
+  "dependencies": {
+    "@types/node": "^14.0.13",
+    "commander": "^5.1.0",
+    "typescript": "^3.9.5"
+  }
+}
